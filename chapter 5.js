@@ -1,5 +1,6 @@
 // Chapitre 5 ajouter des conditions
 
+
 // exercice 1 changez les valeurs des variables temperature et formule
 const temperature = 0;
 if (temperature <= 0) {
@@ -16,10 +17,69 @@ if (formule === "abracadabra"){
 else {
 	console.log("Ce n'est pas la bonne formule");
 }
-// exercice 2 add
 
 
 
+// exercice 2 compléter ce programme pour qu'il affiche le jour suivant le jour actuel
+const jourActuel = "lundi";
+let jourSuivant = "";
+
+// Solution en utilisant switch
+switch (jourActuel) {
+	case "lundi":
+    jourSuivant = "mardi";
+		break;
+	case "mardi":
+		jourSuivant = "mercredi";
+		break;
+	case "mercredi":
+		jourSuivant = "jeudi";
+		break;
+	case "jeudi":
+		jourSuivant = "vendredi";
+		break;
+	case "vendredi":
+		jourSuivant = "samedi";
+		break;
+	case "dimanche":
+		jourSuivant = "lundi";
+		break;
+	default:
+		console.log("jour non reconnu");
+}
+// Solution en utilisant if
+if (jourActuel === "lundi") {
+	jourSuivant = "mardi";
+} else if (jourActuel === "mardi") {
+	jourSuivant = "mercredi";
+} else if (jourActuel === "mercredi"){
+	jourSuivant	= "jeudi";
+} else if (jourActuel === "jeudi") {
+	jourSuivant = "vendredi";
+} else if (jourActuel === "samedi") {
+	jourSuivant = "dimanche";
+} else if (jourActuel === "dimanche") {
+	jourSuivant = "lundi";
+} else {
+	console.log("jour non reconnu");
+}
 
 
-if
+
+// exercice 3 Baccalauréat
+const moyenne = 11;
+if (moyenne < 10) {
+	console.log("Le candidat est recalé");
+} else if (moyenne < 12) {
+	console.log("Le candidat est reçu");
+} else if (moyenne >= 12) {
+	console.log("Le candidat est reçu avec mention");
+}
+
+
+// exercice 4 Seconde Suivante
+let heures = 14; // Faire varier cette variable entre 0 et 23
+let minutes = 17; // Faire varier cette variable entre 0 et 59
+let secondes = 59; // Faire varier cette variable entre 0 et 59
+// 14h17m59s => 14h18m0s
+
