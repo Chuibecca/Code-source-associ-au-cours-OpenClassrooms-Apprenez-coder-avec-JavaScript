@@ -16,10 +16,10 @@ if (formule === "abracadabra"){
 else {
 	console.log("Ce n'est pas la bonne formule");
 }
-// exercice 2
+// exercice 2 add
 
 
 
 
 
-if 
+if
