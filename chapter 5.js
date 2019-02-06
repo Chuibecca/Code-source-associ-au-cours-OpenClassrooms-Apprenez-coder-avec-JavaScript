@@ -17,3 +17,9 @@ else {
 	console.log("Ce n'est pas la bonne formule");
 }
 // exercice 2
+
+
+
+
+
+if 
