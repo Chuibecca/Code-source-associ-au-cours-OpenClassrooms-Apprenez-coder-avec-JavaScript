@@ -1,0 +1,47 @@
+Last login: Fri Feb  8 11:20:38 on ttys003
+rosingledeMacBook-Air:beccatest becca$ cd /Users/becca/Documents/beccatest/intro-javascript
+rosingledeMacBook-Air:intro-javascript becca$ git check out -b solution-avec-for
+git: 'check' is not a git command. See 'git --help'.
+
+The most similar commands are
+	checkout
+	check-attr
+	cherry
+rosingledeMacBook-Air:intro-javascript becca$ git checkout -b solution-avec-for
+fatal: A branch named 'solution-avec-for' already exists.
+rosingledeMacBook-Air:intro-javascript becca$ emacs -nw chapitre3_exercice1.js
+
+
+
+
+
+
+
+
+
+
+
+File Edit Options Buffers Tools JavaScript Help                                 
+// Jour suivant                                                                 
+
+const jourActuel = "lundi";
+let jourSuivant = "";
+
+// Solution avec un if                                                          
+if (jourActuel === "lundi") {
+        jourSuivant = "mardi";
+} else if (jourActuel === "mardi") {
+        jourSuivant = "mercredi";
+} else if (jourActuel === "mercredi") {
+        jourSuivant = "jeudi";
+} else if (jourActuel === "jeudi") {
+        jourSuivant = "vendredi";
+} else if (jourActuel === "vendredi") {
+        jourSuivant = "samedi";
+} else if (jourActuel === "samedi") {
+        jourSuivant = "dimanche";
+} else if (jourActuel === "dimanche") {
+        jourSuivant = "lundi";
+} else {
+-UU-:**--F1  chapitre3_exercice1.js   Top L1    Git:solution-avec-for  (JavaScri
+Beginning of buffer
